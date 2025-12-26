@@ -4,5 +4,4 @@ print("Обработка...")
 time.sleep(1)
 ans = (num1 * 4)
 
-ans = int(ans)
 print(ans,"литров")
