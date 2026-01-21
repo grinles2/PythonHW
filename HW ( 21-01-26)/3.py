@@ -115,7 +115,7 @@ if chicken and ice_cream:
 
 
 # TODO сделать конец оформления
-print("\nЗаказ:")
+print("\nЧЕК:")
 print("Сумма до скидки:", balance, "$")
 
 
@@ -128,7 +128,7 @@ if dessert_discount > 0:
 if discount_percent > 0:
     discount_amount = balance * discount_percent / 100
     balance -= discount_amount
-    print("вы сэкономили целых:", discount_percent, "%")
+    print("% скидки:", discount_amount)
 
 
 if free_drink:
